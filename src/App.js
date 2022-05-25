@@ -1,10 +1,12 @@
 import "./App.css";
-import MemoList from "./components/MemoList";
+import MemoClass from "./components/MemoClass";
+import MemoFunc from "./components/MemoFunc";
 
 function App() {
   return (
     <div className="App">
-      <MemoList />
+      <MemoFunc />
+      <MemoClass />
     </div>
   );
 }
